@@ -1,0 +1,42 @@
+# 🎨 DIO NFT Key
+
+Este projeto é parte do desafio da Digital Innovation One (DIO) para criar e mintar um NFT.
+Neste repositório, exploramos a criação de um NFT utilizando a rede **Polygon** (via Amoy Testnet para desenvolvimento gratuito e profissional).
+
+## 🚀 Sobre o Projeto
+O objetivo é desmistificar a criação de NFTs, indo além do "upload de imagem" e entendendo a infraestrutura por trás (Smart Contracts).
+
+## 🛠️ Tecnologias
+- **Solidity**: Linguagem do Smart Contract.
+- **Hardhat**: Framework de desenvolvimento Ethereum.
+- **Polygon Amoy**: Rede de testes (Gas grátis).
+- **OpenSea**: Marketplace de visualização.
+- **IPFS**: Armazenamento descentralizado da arte (opcional/simulado).
+
+## 📋 Pré-requisitos
+- Node.js instalado.
+- Metamask configurada na rede Polygon Amoy.
+- Tokens MATIC de teste (Faucets disponíveis).
+
+## 📦 Como rodar
+1. Clone o repo.
+2. `npm install`
+3. Configure o `.env` com sua Private Key e API Key da PolygonScan.
+4. `npx hardhat run scripts/deploy.js --network amoy`
+
+## ✅ Status do Projeto
+- **Smart Contract Address (Amoy)**: `0xb5401D75Aa23828386116269c02F02e83A261eCF`
+- **Deploy**: Sucesso ✅
+- **Mint**: Aguardando Gás (Script pronto em `scripts/mint.js`)
+
+## 🧪 Como Testar
+Este projeto contém testes automatizados para garantir a segurança do contrato.
+Execute:
+\```bash
+npx hardhat test
+\```
+Esperado: 4 testes passando (Deploy, Owner check, Mint logic).
+
+## 🔗 Links Úteis
+- [Fauce Polygon Amoy](https://faucet.polygon.technology/)
+- [OpenSea Testnet](https://testnets.opensea.io/)
