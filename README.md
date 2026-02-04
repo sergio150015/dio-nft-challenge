@@ -3,6 +3,13 @@
 Este projeto é parte do desafio da Digital Innovation One (DIO) para criar e mintar um NFT.
 Neste repositório, exploramos a criação de um NFT utilizando a rede **Polygon** (via Amoy Testnet para desenvolvimento gratuito e profissional).
 
+## 🖼️ Visual Showcase
+Para evidenciar o sucesso da criação e transferência, incluímos os assets e mockups do projeto:
+
+| Genesis Architect #0 | Showcase no Marketplace |
+|:---:|:---:|
+| ![NFT Art](assets/genesis_nft.png) | ![Mockup](assets/marketplace_mockup.png) |
+
 ## 🚀 Sobre o Projeto
 O objetivo é desmistificar a criação de NFTs, indo além do "upload de imagem" e entendendo a infraestrutura por trás (Smart Contracts).
 
