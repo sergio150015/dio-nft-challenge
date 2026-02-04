@@ -17,6 +17,10 @@ module.exports = {
       url: "https://rpc-amoy.polygon.technology/",
       accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
     },
+    polygon_mainnet: {
+      url: "https://polygon-rpc.com",
+      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
+    },
     sepolia: {
       url: "https://rpc.sepolia.org",
       accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
@@ -25,6 +29,7 @@ module.exports = {
   etherscan: {
     apiKey: {
       polygonAmoy: process.env.POLYGONSCAN_API_KEY,
+      polygon: process.env.POLYGONSCAN_API_KEY,
       sepolia: process.env.ETHERSCAN_API_KEY
     },
     customChains: [

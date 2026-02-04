@@ -27,7 +27,8 @@ O objetivo é desmistificar a criação de NFTs, indo além do "upload de imagem
 ## ✅ Status do Projeto
 - **Smart Contract Address (Amoy)**: `0xb5401D75Aa23828386116269c02F02e83A261eCF`
 - **Deploy**: Sucesso ✅
-- **Mint**: Aguardando Gás (Script pronto em `scripts/mint.js`)
+- **Mint**: Sucesso ✅ (Token #0 enviado para a carteira do instrutor)
+- **Verificação On-chain**: Sucesso ✅ (Saldo da carteira `0xA9...c096` = 1 NFT)
 
 ## 🧪 Como Testar
 Este projeto contém testes automatizados para garantir a segurança do contrato.
